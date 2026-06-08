@@ -1,186 +1,154 @@
-# Hey there! 👋 I'm Abdullah
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0f3460,80:1f6feb,100:388bfd&height=210&section=header&text=Abdullah%20Madoun&fontSize=44&fontColor=ffffff&fontAlignY=40&desc=AI%20%2F%20ML%20Engineer%20%C2%B7%20Applied%20Computer%20Vision&descAlignY=60&descSize=18&descColor=adbac7&animation=fadeIn"/>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah-madoun)
-[![Email](https://img.shields.io/badge/Email-Say_Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a-madoun@hotmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-195_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/AbdullahMadoun/)
-
-### 🎓 Software Engineering Student @ KFUPM | AI Specialization
-**Riyadh, Saudi Arabia**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullah-madoun/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AbdullahMadoun)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullah.h.madoun@gmail.com)
 
 </div>
 
----
+<br/>
 
-## 🧑‍💻 About Me
-
-I'm a **final-year Software Engineering student** who gets genuinely excited about building AI systems that actually work in the real world. Whether it's teaching computers to recognize food in cafeterias or helping Arabic signers communicate through AI, I love turning complex problems into elegant solutions.
-
-**When I'm not coding, you'll find me:**
-- ♟️ Playing chess
-- 🌌 Pointing my camera at the night sky trying to capture galaxies 
-- 📚 Tutoring students in math or mentoring fellow developers
-- 🤝 Leading community volunteer projects
+**My goal is simple:** Build AI systems that **reason**, **learn**, and **scale** — closing the gap between models that work on a benchmark and models that work in messy, real-world production.
 
 ---
 
-## 💡 What Gets Me Out of Bed
+## 🎯 Current Focus
 
-I'm passionate about **AI/ML that solves real problems**. Not just academic exercises, but systems that people actually use:
+Researching the fundamentals of deep learning and building applied AI systems:
+- **Mechanistic Interpretability:** Exploring the internal representations of deep neural networks.
+- **Continual & Few-Shot Learning:** Investigating architectures that absorb novel knowledge without catastrophic forgetting.
+- **Real-world Computer Vision:** Designing detection and cross-modal evaluation pipelines for deployment.
+- **Autonomous Systems:** Perception and simulation for drone inspection.
 
-- 🤖 **Building production-ready AI** with PyTorch, Transformers, and Graph Neural Networks
-- 🎯 **Designing end-to-end ML pipelines** from messy data to deployed models  
-- 🔍 **Hunting for patterns** in data that lead to actual business impact
-- 🏆 **Winning hackathons** by thinking differently (3 wins and counting!)
-- 🧠 **Problem-solving** - whether it's debugging code, optimizing algorithms, or finding checkmate in 3 moves
-
----
-
-## 🚀 Cool Stuff I've Built
-
-### 🍽️ **Food Recognition & Pricing System** | University-Funded Research
-*Currently Working On This · Feb 2025 - Present*
-
-Building an AI system for KFUPM cafeterias that's actually pretty smart:
-- 🎯 **Cut manual labeling by 75%** using semi-supervised Vision Transformers on 130K images (because ain't nobody got time for labeling that manually)
-- 🚀 **Real-time pricing** with YOLO object detection - point camera at tray, get instant price
-- 🔄 **Self-learning system** - recognizes new dishes without retraining (yes, it even learned about the new shawarma)
-
-**Why this matters:** Faster checkout lines, fewer pricing errors, and I get to eat my lunch while my model does the work.
-
-### 🤟 **Arabic Sign Language AI** | Research Project
-
-Helping bridge communication gaps for Arabic-speaking deaf community:
-- 🧠 **15.7% Word Error Rate** - that's pretty good for continuous sign language!
-- 📊 Built a **Graph Neural Network** that treats the human skeleton like a... well, graph
-- 🎯 **Hybrid architecture** combining TCN + Transformers for temporal dynamics
-
-**The challenge:** Arabic sign language is way different from ASL, and continuous recognition is harder than isolated signs. We're getting there!
-
-### 🏆 **Tabular ML Competition Winner** | Beat 30+ Teams
-
-- 🥇 **First place** with 82% F1-score on imbalanced data (5% better than second place)
-- 🔥 **TabPFN 2.5** + focal loss + clever feature engineering = victory
-- 💪 Lesson learned: Sometimes the fanciest model isn't the answer - understanding your data is
-
-
+**Background:** 🎓 Software Engineering (AI/ML) at KFUPM (First Honors, GPA 3.9/4.0) · 🔬 AI Research Assistant @ KFUPM · 📊 Former Data Analyst Intern @ Keeta (Meituan).
 
 ---
 
-## 💼 Experience That Shaped Me
+## :computer: Technical Skills
 
-### 📊 **Data Analyst Intern** @ Keeta Business
-*Summer 2025*
+- **AI / ML Focus:** Continual/Lifelong Learning, Few-Shot & In-Context Learning, Vision-Language Models (VLMs), Self-Supervised Learning (DINOv2), Object Detection, Graph Neural Networks (GNNs).
+- **Frameworks & Libraries:** PyTorch, PEFT (LoRA), OpenCV, AutoGluon.
+- **Engineering & Infrastructure:** Python, C++, SQL, FastAPI, Docker, SLURM, Weights & Biases, Gazebo, Linux.
 
-**The mission:** Find fraud. Lots of it.
 
-- 🕵️ Engineered risk metrics that **caught 400+ fraudulent cases** (satisfying? Very.)
-- 🗄️ Built **Power BI data model** unifying messy multilingual sources
-- ⚡ Cut analysis time from hours to minutes for the ops team
 
-**What I learned:** Real-world data is messy, and cleaning it is 80% of the job. Also, fraud detection is basically detective work with Python.
+## 🚀 Featured Projects
+
+<details>
+<summary>&nbsp;<b>🍽️ TahamajaNet — Few-Shot Food Recognition</b> — Continual Learning & Computer Vision &nbsp;·&nbsp; <i>86.4% top-1 accuracy</i></summary>
+<br/>
+
+End-to-end system that photographs a cafeteria tray and produces an itemized bill, deployed at the KFUPM campus restaurant. The system was designed after a prior static classifier collapsed under a seasonal menu change, driving my focus toward architectures that incrementally absorb novel classes.
+
+- **Methodology:** Investigated embedding-level In-Context Learning (ICL) with DINOv2 versus instruction-tuned VLMs, ultimately achieving 86.4% top-1 and 90.3% precise-count accuracy via LoRA fine-tuning of Qwen2.5-VL-7B.
+- **Performance:** Addressed exact-count regression (predicting the wrong number of items) by implementing a custom cardinality-aware structural loss.
+
+`Python` `PyTorch` `Qwen2.5-VL` `SAM3` `DINOv2` `LoRA`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-KFUPMRestaurant-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AbdullahMadoun/KFUPMRestaurant)
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🚁 SkyLink — Autonomous Drone Perception</b> — Robotics &nbsp;·&nbsp; <i>47.8% mAP@50</i></summary>
+<br/>
+
+PX4-targeted drone autonomy stack for road-damage detection and precision landing.
+
+- **Perception:** Multi-scale YOLO ensemble achieving 47.8% mAP@50 and 0.075m landing precision.
+- **Simulation:** Engineered a cloud-based Gazebo evaluation track to stress-test generalization under severe compute constraints.
+
+`Python` `PX4` `Gazebo` `YOLO`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-SeniorProject-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AbdullahMadoun/SeniorProject)
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🏦 Arabic Bank Check Recognition</b> — NLP / OCR &nbsp;·&nbsp; <i>1.67% → 32.17% exact-match</i></summary>
+<br/>
+
+Four-stage pipeline for reading Saudi bank cheques via YOLO detection, CRNN+CTC sequence recognition, and cross-modal verification.
+
+- **Methodology:** Designed an integer-conditioned cross-modal reranker that exploits the bijection between handwritten Arabic text and digit strings.
+- **Performance:** Lifted Arabic exact-match from 1.67% to 32.17% on a data-starved domain *without new training*, purely by reframing OCR as a CTC forced-alignment scoring problem.
+
+`Python` `PyTorch` `CRNN` `CTC` `DocLayout-YOLO`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-BankCheckNLP-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AbdullahMadoun/BankCheckNLP)
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🤟 Continuous Arabic Sign Language Recognition</b> — Deep Learning &nbsp;·&nbsp; <i>15.7% WER</i></summary>
+<br/>
+
+Hybrid skeletal-temporal architecture for translating continuous Arabic sign language video to text.
+
+- **Architecture:** Ensembled Graph Neural Networks (GNNs) for spatial joints with BiLSTMs for temporal dynamics to capture long-range sequences.
+- **Learning Journey:** Achieved 15.7% WER. The project served as a deep-learning sandbox to deeply understand sequence modeling and the limits of architectural scaling.
+
+`Python` `PyTorch` `GNN` `BiLSTM` `CTC`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-CSLR-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AbdullahMadoun/CSLR)
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🏆 Tabular ML — 1st Place Solution</b> — Machine Learning &nbsp;·&nbsp; <i>82.0% F1</i></summary>
+<br/>
+
+Ensemble learning solution handling severe class imbalance.
+
+- **Methodology:** Trained a custom deep model using Focal Loss to combat severe class imbalance, combined with TabPFN and AutoGluon in a stacked ensemble.
+- **Performance:** Achieved 82.0% minority-class F1 score by running Monte Carlo simulations to approximate the optimal decision threshold.
+
+`Python` `TabPFN` `AutoGluon` `Focal Loss`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-MLKaggleWin-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AbdullahMadoun/MLKaggleWin)
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🏢 LeaseFlow / IMDAD</b> — Applied ML & FinTech</summary>
+<br/>
+
+Cloud agent designed to help small merchants access lease-to-own equipment financing via operational and market signals.
+
+- **Architecture:** Built a Dockerized pipeline for underwriting analysis and merchant financing insights.
+- **Methodology:** Combined POS-data deep dives, financial document extraction, Google Maps review scraping, rule-based checks, and payment APIs to assess credit risk.
+
+`Python` `Docker` `REST APIs`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-LeaseFlow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AbdullahMadoun/LeaseFlow)
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🤖 Applied AI & Automation Tooling</b></summary>
+<br/>
+
+| Project | Description |
+|:---|:---|
+| [**browseros-linkedin-skills**](https://github.com/AbdullahMadoun/browseros-linkedin-skills) | 31 reusable agentic browser skills for LinkedIn search, outreach, and job automation. |
+| [**JobAssist**](https://github.com/AbdullahMadoun/JobAssist) | AI command center with ATS keyword scoring, CV tailoring, and cover letter generation. |
+
+</details>
 
 ---
 
-## 🏅 Wins & Cool Moments
-
-🥇 **ByteBank Hackathon Winner** - Built a content recommendation engine using video transcript vectorization (think TikTok algorithm, but for a fintech platform)
-
-🥇 **Four Principles Competition Winner** - Designed AI-powered supply chain optimization. We value-stream-mapped the entire logistics flow and found bottlenecks worth millions
-
-🥇 **KFUPM Math Contest Champion** - Beat everyone in a speed algebra competition (all 3 rounds 🔥)
-
-♟️ **2x National Chess Gold, 1x Silver** - Strategic thinking under pressure is my jam. Also learned that time pressure brings out your true self (and panic moves)
-
-🌌 **Astrophotographer** - Captured Andromeda galaxy with basic equipment and lots of patience. Space is cool, y'all.
-
----
-
-## 🛠️ Tech I Work With
-
-### 🤖 Deep Learning & AI
-```python
-favorite_tools = {
-    "frameworks": ["PyTorch", "Transformers", "Hugging Face"],
-    "architectures": ["Vision Transformers (ViT)", "Graph Neural Networks", "TCN", "YOLO"],
-    "tasks": ["Computer Vision", "NLP", "Object Detection", "Time Series"],
-    "vector_magic": ["Embeddings", "Vector Search", "Content-Based Filtering"]
-}
-```
-
-### 📊 ML & Data Science
-```python
-data_toolkit = {
-    "libraries": ["scikit-learn", "pandas", "numpy"],
-    "visualization": ["Power BI", "matplotlib", "seaborn"],
-    "techniques": ["Feature Engineering", "Ensemble Methods", "Focal Loss"],
-    "love_hate": "Data cleaning (necessary evil)"
-}
-```
-
-### 💻 Software Engineering
-```python
-development_stack = {
-    "languages": ["Python ❤️", "Java", "SQL", "R", "JavaScript"],
-    "frontend": ["React", "HTML/CSS", "Firebase"],
-    "backend": ["Spring Boot", "REST APIs"],
-    "other": ["Git", "Testing", "Actually reading documentation"]
-}
-```
-
-### 🌍 Languages & Interests
-```python
-human_side = {
-    "languages": {"Arabic": "Native", "English": "Native"},
-    "hobbies": ["Chess (2259 Lichess)", "Astrophotography", "Gaming", "Math"],
-    "personality": "INTJ who actually enjoys talking to people",
-    "fun_fact": "I've spent more hours on chess.com than I'd like to admit"
-}
-```
-
----
-
-## 📈 GitHub Stats
+## 🏆 Honors
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AbdullahMadoun&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullahMadoun&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)
-
-</div>
-
----
-
-## 🎯 What I'm Up To Now
-
-- 🔬 Researching **Vision Transformers** and **GNNs** for my thesis (spoiler: it's about food, again)
-- 🏗️ Building the **esports coaching platform** from scratch with a real client
-- 📖 Taking advanced courses in **Deep Learning**, **Computer Vision**, **NLP**, and **ML**
-- 🎓 Graduating in May 2026 and actively **looking for full-time opportunities** in AI/ML
-- 🤝 Open to **collaborating on AI/ML projects**, **research**, or just **nerding out about tech**
-
----
-
-## 💬 Let's Connect!
-
-I love talking about:
-- 🤖 AI/ML projects and ideas
-- ♟️ Chess strategies (especially King's Indian Defense)
-- 🌌 Astrophotography tips and tricks  
-- 💡 Startups, entrepreneurship, or "crazy" project ideas
-- 📚 Books, courses, or learning resources
-
-Always happy to chat, collaborate, or help out! Whether you want to discuss AI research, need help with a project, or want to challenge me to a chess match - my inbox is open.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah-madoun)
-[![Email](https://img.shields.io/badge/Email-Drop_a_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a-madoun@hotmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Challenge_Me-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/AbdullahMadoun/)
-[![Chess](https://img.shields.io/badge/Lichess-Play_Me-black?style=for-the-badge&logo=lichess&logoColor=white)](https://lichess.org/@/AbdullahMadoun)
-
-### 🚀 _"First, solve the problem. Then, write the code."_ - John Johnson
+| Award | Detail |
+|:---|:---|
+| **1st Place**, [ByteBank Technical Hackathon](https://github.com/AbdullahMadoun/PitchSwipe) | Real-time preference embedding system for personalized startup ranking (20+ teams) |
+| **1st Place**, KFUPM MBA Algebra Contest | Ranked 1st university-wide out of 100+ contestants |
+| **National Chess Champion** | 2× Gold, 1× Silver — Saudi Universities Sports Federation · Lichess Rating: **2256** |
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0f3460,80:1f6feb,100:388bfd&height=100&section=footer"/>
